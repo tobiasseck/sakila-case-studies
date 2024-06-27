@@ -40,6 +40,7 @@ where rc.cumulated_stake <= 80
 group by 1, 2, 3
 order by 3 desc;
 
+-- this is a comment
 
 select
 	cy.name as Kategorie,
